@@ -9,7 +9,7 @@ El sitio web permitirá presentar los resultados de esta investigación y mostra
 ## Enlaces del proyecto
 
 - **Sitio web:**  https://jacquelinecuenca.github.io/Explorando-la-cultura-con-la-web/
-- **Documentación del proyecto:** Documentacion_Sprint1.docx
+- **Documentación del proyecto:** ./Documentacion_Sprint1.docx
 
 
 ## Plantilla utilizada

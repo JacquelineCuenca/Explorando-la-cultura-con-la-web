@@ -8,16 +8,9 @@ El sitio web permitirá presentar los resultados de esta investigación y mostra
 
 ## Enlaces del proyecto
 
-- **Sitio web:**  https://jacquelinecuenca.github.io/Explorando-la-cultura-con-la-web/
-- **Documentación del proyecto:** ./Documentacion_Sprint1.docx
-
-
-## Plantilla utilizada
-
-- **Nombre:** Tessellate
-- **Autor:** HTML5 UP
-- **Enlace:** https://html5up.net/tessellate
-
+- **Página web:** [Juegos de antes y de ahora](https://jacquelinecuenca.github.io/Explorando-la-cultura-con-la-web/)
+- **Documentación:** [Documentacion_Sprint1.docx](./Documentacion_Sprint1.docx)
+  
 ## Autoras
 - Jacqueline Cuenca Sáez
 - Ariana Moreira Rodríguez

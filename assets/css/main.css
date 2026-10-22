@@ -2499,3 +2499,24 @@ input, select, textarea {
 				}
 
 	}
+
+
+
+/* First: imágenes uniformes */
+#first .content .row .col-8 > .row > .col-6 {
+    display: flex;
+}
+
+#first .content .row .col-8 > .row > .col-6 .image {
+    display: block;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+#first .content .row .col-8 > .row > .col-6 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

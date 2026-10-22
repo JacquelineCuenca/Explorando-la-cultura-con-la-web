@@ -2182,10 +2182,10 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.jpg");
-		background-size: auto, cover;
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/overlay.png"), url("../../images/header.jpg");
+		background-size: auto, auto, cover;
+		background-position: top left,top left, center center;
+		background-repeat: repeat, repeat, no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
@@ -2195,6 +2195,7 @@ input, select, textarea {
 			font-size: 2.25em;
 			line-height: 1.25em;
 			margin-bottom: 0;
+			text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 		}
 
 		#header header p {
@@ -2204,6 +2205,7 @@ input, select, textarea {
 			font-size: 1.25em;
 			line-height: 1.5em;
 			text-align: center;
+			
 		}
 
 		#header footer {

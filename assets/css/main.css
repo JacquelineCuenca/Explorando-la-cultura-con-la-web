@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic, 700");
 
 /*
 	Tessellate by HTML5 UP
@@ -2055,9 +2055,15 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.15);
-		box-shadow: inset 0 0 0 1px #fff;
-		color: #fff;
+		background: #f4b73f;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+		color: #2b1d0e;
+		font-weight: 400;
+		border-radius: 2em;
+	}
+	
+	.dark .button:after {
+    	content: '  \2193';
 	}
 
 		.dark input[type="button"]:hover,
@@ -2182,6 +2188,9 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
+		display: flex; 
+		flex-direction: column;
+		justify-content: center;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/overlay.png"), url("../../images/header.jpg");
 		background-size: auto, auto, cover;
 		background-position: top left,top left, center center;
@@ -2192,20 +2201,34 @@ input, select, textarea {
 	}
 
 		#header header h1 {
+			color: #fff;
 			font-size: 2.25em;
+			font-weight: 700;
 			line-height: 1.25em;
 			margin-bottom: 0;
 			text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 		}
 
+		/* Línea decorativa bajo el título */
+		#header header h1:after {
+			content: '';
+			display: block;
+			width: 4em;
+			height: 4px;
+			margin: 0.6em auto 0 auto;
+			border-radius: 2px;
+			background: #f4b73f;
+		}
+
 		#header header p {
 			margin-top: 1.25em;
-			font-weight: 100;
+			font-weight: 300;
 			padding: 0;
 			font-size: 1.25em;
 			line-height: 1.5em;
 			text-align: center;
-			
+			text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+
 		}
 
 		#header footer {

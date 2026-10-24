@@ -2567,9 +2567,19 @@ input, select, textarea {
     border-radius: 6px;
 }
 	
-/* First: imágenes uniformes */
-#first .content .row .col-8 > .row > .col-6 {
-    display: flex;
+/* First: galería con barras */
+.gallery-note { margin-bottom: 1.5em; font-size: 0.85em; }
+.gallery-title { margin: 0 0 0.75em 0; font-size: 1.1em; }
+.gallery + .gallery-title { margin-top: 2em; }
+.gallery figure { margin: 0; }
+.gallery .image { aspect-ratio: 4 / 3; overflow: hidden; border-radius: 0.5em; }
+.gallery .image img { height: 100%; object-fit: cover; }
+.gallery .stat-item { margin: 0.9em 0 0 0; }
+.gallery .stat-header { flex-wrap: wrap; column-gap: 1em; font-size: 0.85em; line-height: 1.4; }
+.gallery .progress-fill { width: calc(var(--value) / var(--total) * 100%); }
+
+@media screen and (max-width: 1000px) {
+	.gallery-note { text-align: center; }
 }
 
 #first .content .row .col-8 > .row > .col-6 .image {

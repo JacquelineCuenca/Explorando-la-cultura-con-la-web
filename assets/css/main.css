@@ -2139,6 +2139,15 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
+		.feature-icon img.img-circulo {
+    		width: 9em;          
+    		height: 9em;         
+    		border-radius: 50%;    
+    		object-fit: cover;    
+    		display: inline-block;
+    		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+		}
+
 		.feature-icon:after {
 			content: '';
 			position: absolute;

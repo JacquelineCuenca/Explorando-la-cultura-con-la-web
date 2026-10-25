@@ -14,6 +14,13 @@
 	--color-negro: #000;
 	--color-gris-medio-oscuro: #555;
 	--color-gris-oscuro: #3d3d3d;
+	--color-gris-oscuro-neutro: #4f4f4f;
+	--color-amarillo-dorado: #f4b73f;
+	--color-marron-casi-negro: #2b1d0e;
+	--color-gris-casi-blanco: #d6d6d6;
+	--color-morado-lila-estadisticas: #868cef9b;
+	--color-lila-pastel-estadisticas: #bd9be995;
+
 }
 
 html, body, div, span, applet, object,
@@ -2051,7 +2058,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #4f4f4f;
+			background: var(--color-gris-oscuro-neutro);
 		}
 
 		input[type="button"].alt,
@@ -2077,9 +2084,9 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: #f4b73f;
+		background: var(--color-amarillo-dorado);
 		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
-		color: #2b1d0e;
+		color: var(--color-marron-casi-negro);
 		font-weight: 400;
 		border-radius: 2em;
 	}
@@ -2248,7 +2255,7 @@ input, select, textarea {
 			height: 4px;
 			margin: 0.6em auto 0 auto;
 			border-radius: 2px;
-			background: #f4b73f;
+			background: var(--color-amarillo-dorado);
 		}
 
 		#header header p {
@@ -2296,7 +2303,7 @@ input, select, textarea {
 			#second > header,
 			#third > header,
 			#fourth > header {
-				color: #fff;
+				color: var(--color-blanco);
 				background-size: cover;
 				background-position: center center;
 				background-repeat: no-repeat;
@@ -2310,7 +2317,7 @@ input, select, textarea {
 				#second > header p,
 				#third > header p,
 				#fourth > header p {
-					color: #fff;
+					color: var(--color-blanco);
 					text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 				}
 
@@ -2380,7 +2387,7 @@ input, select, textarea {
 			}
 
 		#footer ul.icons a {
-			box-shadow: inset 0 0 0 1px #d6d6d6;
+			box-shadow: inset 0 0 0 1px var(--color-gris-casi-blanco);
 		}
 
 /* Wide */
@@ -2610,7 +2617,7 @@ input, select, textarea {
 }
 .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, #868cef9b 0%, #bd9be995 100%);
+    background: linear-gradient(90deg, var(--color-morado-lila-estadisticas) 0%, var(--color-morado-lila-estadisticas) 100%);
     border-radius: 6px;
 }
 	
@@ -2661,7 +2668,7 @@ input, select, textarea {
 
 #first > header .header-mapa h3 {
 	font-size: 1.1em;
-	color: #fff;
+	color: var(--color-blanco);
 	margin-bottom: 0.75em;
 	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
@@ -2670,7 +2677,7 @@ input, select, textarea {
 	display: block;
 	width: 100%;
 	height: 320px;
-	border: 3px solid #fff;
+	border: 3px solid var(--color-blanco);
 	border-radius: 8px;
 	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
 }
@@ -2678,7 +2685,7 @@ input, select, textarea {
 #first > header .header-mapa a {
 	display: inline-block;
 	margin-top: 0.75em;
-	color: #fff;
+	color: var(--color-blanco);
 	font-size: 0.9em;
 	text-decoration: underline;
 }

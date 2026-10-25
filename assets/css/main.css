@@ -2315,19 +2315,19 @@ input, select, textarea {
 				}
 
 			#first > header {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.65)), url("../../images/mall.jpg");
+				background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.70)), url("../../images/mall.jpg");
 			}
 
 			#second > header {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.55)), url("../../images/vecindario.jpg");
+				background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.55)), url("../../images/vecindario.jpg");
 			}
 
 			#third > header {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.65)), url("../../images/celulares.jpg");
+				background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.60)), url("../../images/celulares.jpg");
 			}
 
 			#fourth > header {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.55)), url("../../images/canicas2.jpg");
+				background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.55)), url("../../images/canicas2.jpg");
 			}
 
 		.main > .content {
@@ -2641,4 +2641,44 @@ input, select, textarea {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+
+/* First: Encabezado con mapa */
+#first > header .row {
+	align-items: center;
+}
+
+#first > header .header-texto,
+#first > header .header-texto h2,
+#first > header .header-texto p {
+	text-align: center;
+}
+
+#first > header .header-texto p {
+	margin-top: 1.5em;
+}
+
+#first > header .header-mapa h3 {
+	font-size: 1.1em;
+	color: #fff;
+	margin-bottom: 0.75em;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+#first > header .header-mapa iframe {
+	display: block;
+	width: 100%;
+	height: 320px;
+	border: 3px solid #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+#first > header .header-mapa a {
+	display: inline-block;
+	margin-top: 0.75em;
+	color: #fff;
+	font-size: 0.9em;
+	text-decoration: underline;
 }

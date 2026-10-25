@@ -9,7 +9,7 @@ El sitio web permitirá presentar los resultados de esta investigación y mostra
 ## Enlaces del proyecto
 
 - **Página web:** [Juegos de antes y de ahora](https://jacquelinecuenca.github.io/Explorando-la-cultura-con-la-web/)
-- **Documentación:** [Documentacion_Sprint1.docx](./Documentacion_Sprint1.docx)
+- **Documentación:** [Documentación.docx](./Documentacion_Sprint2.docx)
   
 ## Autoras
 - Jacqueline Cuenca Sáez

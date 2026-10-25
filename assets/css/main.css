@@ -7,6 +7,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root{
+	--color-gris-claro: #F8F8F8;
+	--color-gris-medio: #888;
+	--color-gris-medio-claro: #aaa;
+	--color-gris-casi-oscuro: #666;
+	--color-blanco: #fff;
+	--color-gris-muy-claro: #e6e6e6;
+	--color-celeste-claro: #afd9e0;
+	--color-blanco-palido-fondo-text0: #fcfcfc;
+	--color-negro: #000;
+	--color-gris-medio-oscuro: #555;
+	--color-gris-oscuro: #3d3d3d;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -87,12 +101,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #F8F8F8;
+		background: var(--color-gris-claro);
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
 		font-size: 17pt;
 		line-height: 1.75em;
-		color: #888;
+		color: var(--color-gris-medio);
 		-webkit-text-stroke: 0.1px;
 	}
 
@@ -108,7 +122,7 @@ input, select, textarea {
 		}
 
 	.dark {
-		color: #aaa;
+		color: var(--color-gris-medio-claro);
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -117,12 +131,12 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 17pt;
 		line-height: 1.75em;
-		color: #888;
+		color: var(--color-gris-medio);
 		-webkit-text-stroke: 0.1px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #666;
+		color: var(--color-gris-casi-oscuro);
 		margin: 0 0 1em 0;
 		font-weight: 100;
 		line-height: 1.5em;
@@ -134,7 +148,7 @@ input, select, textarea {
 	}
 
 	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-		color: #fff;
+		color: var(--color-blanco);
 	}
 
 	strong, b {
@@ -143,7 +157,7 @@ input, select, textarea {
 	}
 
 	.dark strong, .dark b {
-		color: #fff;
+		color: var(--color-blanco);
 		color: rgba(255, 255, 255, 0.85);
 	}
 
@@ -166,7 +180,7 @@ input, select, textarea {
 		}
 
 	.dark a {
-		color: #fff;
+		color: var(--color-blanco);
 		border-bottom-color: rgba(255, 255, 255, 0.5);
 	}
 
@@ -188,7 +202,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #e6e6e6;
+		border-top: solid 1px var(--color-gris-muy-claro);
 		margin: 2em 0 2em 0;
 	}
 
@@ -197,7 +211,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.25em #e6e6e6;
+		border-left: solid 0.25em var(--color-gris-muy-claro);
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -1637,9 +1651,9 @@ input, select, textarea {
 			line-height: 2.8em;
 			text-align: center;
 			border: 0;
-			box-shadow: inset 0 0 0 1px #e6e6e6;
+			box-shadow: inset 0 0 0 1px var(--color-gris-muy-claro);
 			border-radius: 100%;
-			color: #aaa;
+			color: var(--color-gris-medio-claro);
 		}
 
 			ul.icons a:hover {
@@ -1657,7 +1671,7 @@ input, select, textarea {
 		ul.menu li {
 			display: inline-block;
 			line-height: 1em;
-			border-left: solid 1px #e6e6e6;
+			border-left: solid 1px var(--color-gris-muy-claro);
 			padding: 0 0 0 0.5em;
 			margin: 0 0 0 0.5em;
 		}
@@ -1832,8 +1846,8 @@ input, select, textarea {
 		-ms-appearance: none;
 		appearance: none;
 		display: block;
-		box-shadow: inset 0 0 0 1px #e6e6e6;
-		background: #f8f8f8;
+		box-shadow: inset 0 0 0 1px var(--color-gris-muy-claro);
+		background: var(--color-gris-claro);
 		width: 100%;
 		padding: 0.85em 1em 0.85em 1em;
 		border-radius: 0.25em;
@@ -1847,8 +1861,8 @@ input, select, textarea {
 		form .select:focus,
 		form textarea:focus {
 			outline: 0;
-			box-shadow: inset 0 0 0 1px #afd9e0;
-			background: #fcfcfc;
+			box-shadow: inset 0 0 0 1px var(--color-celeste-claro);
+			background: var(--color-blanco-palido-fondo-text0);
 		}
 
 	form input[type="text"],
@@ -1867,7 +1881,7 @@ input, select, textarea {
 	}
 
 		form select option:not(:checked) {
-			color: #000;
+			color: var(--color-negro);
 		}
 
 	form .select {
@@ -1911,19 +1925,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #aaa !important;
+		color: var(--color-gris-medio-claro) !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: var(--color-gris-medio-oscuro) !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: var(--color-gris-medio-oscuro) !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: var(--color-gris-medio-oscuro) !important;
 	}
 
 	.dark form input[type="text"],
@@ -1934,7 +1948,7 @@ input, select, textarea {
 	.dark form textarea {
 		background: none;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-		color: #fff;
+		color: var(--color-blanco);
 	}
 
 		.dark form input[type="text"]:focus,
@@ -1944,7 +1958,7 @@ input, select, textarea {
 		.dark form .select:focus,
 		.dark form textarea:focus {
 			background: rgba(255, 255, 255, 0.1);
-			box-shadow: inset 0 0 0 1px #fff;
+			box-shadow: inset 0 0 0 1px var(--color-blanco);
 		}
 
 	.dark form .select:before {
@@ -1953,7 +1967,7 @@ input, select, textarea {
 	}
 
 	.dark form .formerize-placeholder {
-		color: #aaa !important;
+		color: var(--color-gris-medio-claro) !important;
 		color: rgba(255, 255, 255, 0.85) !important;
 	}
 
@@ -1985,11 +1999,11 @@ input, select, textarea {
 		}
 
 			table.default tbody tr {
-				border: solid 1px #e6e6e6;
+				border: solid 1px var(--color-gris-muy-claro);
 			}
 
 				table.default tbody tr:nth-child(2n+2) {
-					background: #f8f8f8;
+					background: var(--color-gris-claro);
 				}
 
 			table.default td {
@@ -2027,12 +2041,12 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #3d3d3d;
+		background: var(--color-gris-oscuro);
 		padding: 0.85em 3em 0.85em 3em;
 		border-radius: 0.25em;
 		cursor: pointer;
 		border: 0;
-		color: #fff;
+		color: var(--color-blanco);
 		text-align: center;
 		text-decoration: none;
 	}
@@ -2051,7 +2065,7 @@ input, select, textarea {
 		button.alt,
 		.button.alt {
 			color: inherit;
-			box-shadow: inset 0 0 0 1px #e6e6e6;
+			box-shadow: inset 0 0 0 1px var(--color-gris-muy-claro);
 			background: none;
 		}
 
@@ -2102,7 +2116,7 @@ input, select, textarea {
 			.dark button.alt:hover,
 			.dark .button.alt:hover {
 				background: rgba(255, 255, 255, 0.15);
-				box-shadow: inset 0 0 0 1px #fff;
+				box-shadow: inset 0 0 0 1px var(--color-blanco);
 			}
 
 /* Feature Icon */
@@ -2121,14 +2135,14 @@ input, select, textarea {
 			height: 2em;
 			font-size: 4.5em;
 			border-radius: 100%;
-			box-shadow: inset 0 0 0 1px #666;
-			color: #666;
+			box-shadow: inset 0 0 0 1px var(--color-gris-casi-oscuro);
+			color: var(--color-gris-casi-oscuro);
 			line-height: 2em;
 		}
 
 		.feature-icon:before {
 			content: '';
-			background: #666;
+			background: var(--color-gris-casi-oscuro);
 			position: absolute;
 			bottom: 0;
 			left: 50%;
@@ -2146,14 +2160,14 @@ input, select, textarea {
 			bottom: 0.65em;
 			width: 1px;
 			height: 4.35em;
-			background: #666;
+			background: var(--color-gris-casi-oscuro);
 			margin-left: -0.5px;
 		}
 
 	.dark .feature-icon .icon {
 		background: rgba(255, 255, 255, 0.15);
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-		color: #fff;
+		color: var(--color-blanco);
 	}
 
 	.dark .feature-icon:before, .dark .feature-icon:after {
@@ -2210,11 +2224,11 @@ input, select, textarea {
 		background-repeat: repeat, repeat, no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
-		color: #fff;
+		color: var(--color-blanco);
 	}
 
 		#header header h1 {
-			color: #fff;
+			color: var(--color-blanco);
 			font-size: 2.25em;
 			font-weight: 700;
 			line-height: 1.25em;
@@ -2256,7 +2270,7 @@ input, select, textarea {
 	}
 
 		.main > header {
-			background: #fff;
+			background: var(--color-blanco);
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
@@ -2300,7 +2314,7 @@ input, select, textarea {
 
 			.main > .content.style4 {
 				padding-top: 0;
-				background: #fff;
+				background: var(--color-blanco);
 			}
 
 /* Footer */
@@ -2310,13 +2324,13 @@ input, select, textarea {
 		margin: 0;
 		text-align: center;
 		padding: 4em 0 8em 0;
-		box-shadow: inset 0 1px 0 0 #e6e6e6;
+		box-shadow: inset 0 1px 0 0 var(--color-gris-muy-claro);
 	}
 
 		#footer .copyright {
 			margin-top: 3em;
 			font-size: 0.8em;
-			color: #aaa;
+			color: var(--color-gris-medio-claro);
 		}
 
 			#footer .copyright a {
